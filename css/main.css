@@ -1,0 +1,56 @@
+@import url("https://use.typekit.net/wyg3wcj.css");
+
+body {
+  font-family: ff-nexus-typewriter,serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("https://d17ol771963kd3.cloudfront.net/assets/bg/1-59b00d663c47e1d9275ef49b685893a4.gif");
+  background-size:cover;
+  color: white;
+  font-size: 0.66vw;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 28vh;
+}
+
+.sup_logo {
+  height: 5vh;
+  width: auto;
+}
+
+.time {
+  margin-top: 1vh;
+  margin-bottom: 5vh;
+}
+
+.links{
+  display: block;
+  margin-bottom: 2vh;
+  text-decoration: none;
+  color: white;
+}
+
+.links:hover{
+  background: red;
+  cursor: pointer;
+}
+
+.links_social{
+  color: gray;
+}
+
+.links_social:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.footer {
+  margin-bottom: 5vh;
+  bottom: 0;
+  position: absolute;
+}
